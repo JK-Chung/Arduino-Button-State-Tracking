@@ -2,7 +2,7 @@
 # tl;dr
 Creates an array holding button states. Includes the function checkButtonStateAndUpdate() that updates the button states. Whilst updating, the function knows that the arduino's code will run many times a second during the time that a button is pressed. So this function prevents multiple changes to a button state during a single press of a button.
 
-This code's void loop() runs this function and toggles the state of two LEDs each time its corresponding button is pressed.
+This code's void loop() runs this function and toggles the state of two LEDs each time its corresponding button is pressed. This part of the code is not important and is only used to demonstrate that the function is working correctly.
 
 # Long Version
 # Problem it Solves
