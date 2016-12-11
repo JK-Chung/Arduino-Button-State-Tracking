@@ -4,7 +4,7 @@ Creates an array holding button states. Includes the function checkButtonStateAn
 
 This code's void loop() runs this function and toggles the state of two LEDs each time its corresponding button is pressed.
 
-# Long Version:
+# Long Version
 # Problem it Solves
 In arduino code, void loop() runs continuously at many thousands of times a second. There will most likely be if statements in this loop that checks if a button has been pressed or not. 
 
