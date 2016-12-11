@@ -20,3 +20,5 @@ Previous attempts to overcome this problem involved setting up another variable 
 This solved the problem however it was believed that this made the code clunky and more difficult to read since these two conditions would have to be checked in every single if statement dealing with button actuation.
 
 This function is reliant on arrays to store a TRUE or FALSE on button actuation. The aim of the function is to change the elements of this array whilst taking into account the problem detailed before. Therefore, any if statements run in void loop() will only have to check the elements of this array and will not have to check for the button's previous state; void checkButtonStates() will have already checked the button's previous state and adjusted the elements accordingly.
+
+This code was created to both learn more about GitHub and to use coding skills gained from uni to create another way of solving this problem
